@@ -1,0 +1,157 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    /* color: #333; */
+    text-align: center;
+  }
+  
+h1{
+    color: red;
+}
+    body{
+
+        
+            background-image: url(background\ image.jpg);
+            background-size: cover;
+            /* width: 656px; */
+            height: 735px;
+            /* background: url(background\ image.jpg) no-repeat; */
+            height: 803px;
+            /* background-attachment: fixed; */
+            /* background-position-y: center; */
+            /* background-color: white; */
+            /* background-attachment: fixed; */
+            overflow: hidden;
+    }
+    
+    #form{
+        background-color:rgb(255, 255, 255);
+        border:2px solid black;
+        border-radius: 10px;
+        position: absolute;
+        left: 2%;
+        top: 10%;
+      
+        padding: 10px;
+        margin: 10px;
+        display: inline-block;
+        height: 5.5in;
+    }
+    #email{
+       
+        text-align: center;
+        line-height:30px;
+        padding: 12px;
+        
+    }
+   
+    #password{
+        text-align: center;
+        padding: 12px;
+       
+    }
+    input{
+        line-height:38px;
+        border-radius: 10px;
+    }
+/* of sign in page */
+    #submit{    
+        text-align: center;
+        margin-top:20px;
+
+    }
+     /* #submit:hover{
+        background-color: black;
+        color: white;
+
+     } */
+    /* of sign up page  and forget password*/
+    #signup{
+        margin-top: 30px;
+        margin-left: 1.3in;
+       
+        
+    }
+
+    .check_box{
+        padding: 10px;
+    }
+    a{
+        display: inline-block;
+        position: absolute;
+        text-align: right;
+       
+    }
+    #forget_password{
+        margin-left: 1.7in;
+    }
+    a{
+        text-align: center;
+        text-decoration: none;
+        color: rgb(255, 0, 0);
+    }
+    
+    h1{
+        text-align: center;
+        padding: 10px;
+        font-size: 39px;
+    }
+    .signin{
+        
+        border: 2px solid rgb(17, 16, 16);
+        border-radius: 5px;
+        background-color: rgb(237, 237, 244);
+        height: 40px;    
+        width: 400px;
+        font-size: 17px;
+        padding-right: 50px;
+        padding-bottom: 10px;
+        
+     }
+     .signin:hover{
+       background-color:  black;
+       color: red;
+      
+       
+    } 
+    #sign_in_written:hover{
+        color: rgb(239, 21, 21);
+        background-color: black;
+
+
+
+    }
+   
+    @media all and (max-width: 600px) {
+     #form{
+        left: 1px;
+        /* width: 473px; */
+     }
+
+     body{
+        background-color: white
+     }
+          
+      
+      }
+      
+      @media all and (min-width: 601px) and (max-width: 900px) {
+       #form{
+        left: 160px;
+       }
+       body{
+        background-color: red;
+       }
+      }
+      
+    
+      
+      
+      
+      
+      
+ 
+ 
